@@ -1,0 +1,254 @@
+* {
+	box-sizing: border-box;
+}
+
+/******************************************
+Pre-form Styles
+******************************************/
+
+.heading {
+	color: white;
+	display: block;
+	background: #2d3945;
+	margin: 0;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 1.75em;
+	color: #333333;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+}
+
+p {
+	color: #808080;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+}
+
+
+.pre-form {
+	display: block;
+	border-bottom: solid 4px black;
+	margin-right: 1em;
+	margin-left: 1em;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+
+
+/******************************************
+General Form Styles
+******************************************/
+
+fieldset {
+	border: none;
+	margin: 0;
+}
+
+legend {
+	padding-top: 30px;
+	padding-bottom: 15px;
+	font-size: 1.75em;
+	font-weight: bold;
+	color:  #333333;
+	font-family: 'Merriweather', serif;
+}
+
+
+
+/******************************************
+Form Styles - Contact
+******************************************/
+
+.contact-info {
+	padding: 0;
+}
+
+label {
+	display: block;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	color: #808080;
+	font-family: 'Merriweather', serif;
+}
+
+.wrapper {
+	margin-top: 3px;
+	margin-left: 1em;
+	margin-right: 1em;
+	border-top: solid 2.5px black;
+	border-bottom: solid 2.5px black;
+	padding-bottom: 20px;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+	background: #eff0f1;
+	border: none;
+	border-radius: 3px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0px;
+	font-size: 16px;
+	padding: 15px 15px 15px 15px;
+	width: 100%;
+}
+
+select {
+	height: 48px;
+	color: #C7C7CD;
+}
+
+/* making placeholder text align right */
+
+::-webkit-input-placeholder {
+   color: #C7C7CD;
+   text-align: right;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #C7C7CD; 
+   text-align: right; 
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #C7C7CD; 
+   text-align: right; 
+}
+
+:-ms-input-placeholder {  
+   color: #C7C7CD; 
+   text-align: right; 
+}
+
+
+
+/******************************************
+Form Styles - Newsletter
+******************************************/
+
+.newsletter {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+label.light {
+	display: inline;
+}
+
+button {
+	background-color: #4ebbb5;
+	color: white;
+	text-align: center;
+	width: 100%;
+	border: none;
+	padding: 25px 0 25px 0;
+	border-radius: 5px;
+	font-size: 1.5em;
+}
+
+.copyright {
+	font-style: italic;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	margin-bottom: 15px;
+	margin-right: 10px;
+	background-color: #eff0f1;
+}
+
+textarea {
+	width: 100%;
+	height: 120px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	resize: none;
+	background: #eff0f1;
+	border: none;
+}
+
+#zipcode {
+	width: 50%;
+	margin-bottom: 20px;
+}
+
+
+
+/******************************************
+Media Q
+******************************************/
+
+@media(min-width: 760px) {
+	form {
+		max-width: 750px;
+		margin: auto;
+	}
+
+	.pre-form {
+		width: 750px;
+		margin: auto;
+	}
+
+	.newsletter {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.wrapper {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.top {
+		display: inline-block;
+		width: 150px;
+		margin-right: 30px;
+	}
+
+	input[type="text"],
+	input[type="email"],
+	input[type="tel"],
+	select {
+		background: #eff0f1;
+		border: none;
+		border-radius: 3px;
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom: 15px;
+		font-size: 16px;
+		padding: 15px 15px 15px 15px;
+		width: 565px;
+	}
+
+	#zipcode {
+		width: 20%;
+	}
+
+	legend {
+		padding-bottom: 20px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
